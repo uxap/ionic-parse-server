@@ -1,9 +1,8 @@
 {
   "name": "ionic-parse-server",
   "version": "1.0.0",
-  "author": "Mauricio Urraco mauriurraco@gmail.com",
-  "homepage": "https://github.com/murraco/"
-  "private": true,
+  "description": "An Ionic project",
+  "main": "index.js",
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
@@ -11,6 +10,16 @@
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxap/ionic-parse-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxap/ionic-parse-server/issues"
+  },
+  "homepage": "https://github.com/uxap/ionic-parse-server#readme",
   "dependencies": {
     "@angular/common": "4.1.0",
     "@angular/compiler": "4.1.0",
@@ -44,7 +53,6 @@
     "@ionic/cli-plugin-ionic-angular": "1.1.2",
     "typescript": "2.2.1"
   },
-  "description": "An Ionic project",
   "cordova": {
     "plugins": {
       "cordova-plugin-console": {},
